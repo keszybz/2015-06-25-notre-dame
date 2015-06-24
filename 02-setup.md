@@ -16,7 +16,6 @@ Here's how Dracula sets up his new laptop:
 ~~~ {.bash}
 $ git config --global user.name "Vlad Dracula"
 $ git config --global user.email "vlad@tran.sylvan.ia"
-$ git config --global color.ui "auto"
 ~~~
 
 (Please use your own name and email address instead of Dracula's.)
@@ -72,4 +71,21 @@ same commands to choose another editor or update your email address.
 > ~~~ {.bash}
 > $ git config --global --unset http.proxy
 > $ git config --global --unset https.proxy
+> ~~~
+
+> ## Missing color {.callout}
+>
+> Git uses color by default (for example ''red'' for unknown files,
+> ''green'' for files which are ready to be committed).
+> Old versions of git (<1.8.4) need to be explicitly told to use
+> color:
+>
+> ~~~ {.bash}
+> $ git config --global color.ui auto
+> ~~~
+>
+> If you do *not* like color, it can be disabled with
+>
+> ~~~ {.bash}
+> $ git config --global color.ui false
 > ~~~
