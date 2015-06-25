@@ -13,6 +13,8 @@ echo "PS1='"'\[\033[01;${HOST_COLOR}m\]\u@\h\[\033[00m\] \[\033[01;34m\]\w\[\033
 exec bash
 ~~~
 
+![Example output (user "zbyszek", host "my-machine", directory "~/something/something/shell", git branch "gh-pages")](fig/color-prompt.png)
+
 Longer explanation:
 
 1. `curl` downloads a file which extracts information about git branch
