@@ -49,6 +49,7 @@ These lessons will start you on a path towards using these resources effectively
 
 ## Other Resources
 
+*   [Color git prompt setup](07-prompt.html)
 *   [Reference](reference.html)
 *   [Discussion](discussion.html)
 *   [Instructor's Guide](instructors.html)
